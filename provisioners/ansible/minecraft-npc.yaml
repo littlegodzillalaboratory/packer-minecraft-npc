@@ -1,0 +1,13 @@
+---
+- name: Provision Minecraft NPC
+  hosts: localhost
+  tasks:
+    - name: Install minecraft-npc node.js package
+      community.general.npm:
+        name: minecraft-npc
+        version: '{{ minecraft_npc_version }}'
+        global: true
+    - name: Install git package
+      ansible.builtin.package:
+        name: git
+        state: present

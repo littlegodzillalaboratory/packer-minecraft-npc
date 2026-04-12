@@ -1,0 +1,7 @@
+---
+image:
+  name: minecraft-npc
+  version: 0.9.0-pre.0
+author: Little Godzilla Laboratory
+dockerhub:
+  username: littlegodzillalaboratory
