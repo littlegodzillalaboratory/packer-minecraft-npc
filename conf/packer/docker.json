@@ -1,4 +1,4 @@
 {
-  "docker_source": "dhi.io/node:26-alpine3.24-sfw-ent-dev",
+  "docker_source": "node:26-alpine",
   "version": "0.9.0-pre.0"
 }
