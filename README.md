@@ -10,7 +10,7 @@ Packer Minecraft NPC is a Packer builder of machine image for running [Minecraft
 
 | Packer Minecraft NPC Version | Node Version | Alpine Version | Minecraft NPC Version |
 |------------------------------|--------------|----------------|-----------------------|
-| 0.10.0 | TODO | TODO | TODO |
+| 0.10.0 | 26 | 3.24 | 1.0.1 |
 
 ## Installation
 
