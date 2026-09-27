@@ -1,8 +1,10 @@
 #!/bin/bash
+set -o errexit
+set -o nounset
+
 docker --version
-source /home/.virtualenvs/py36/bin/activate
 make clean deps lint build-docker
-cat logs/packer-docker.log
-echo "${DOCKERHUB_TOKEN}" | docker login --username cliffano --password-stdin
-docker inspect cliffano/certilizer
+cat logs/packer-build-docker.log
+echo "${DOCKERHUB_TOKEN}" | docker login --username littlegodzillalaboratory --password-stdin
+docker inspect littlegodzillalaboratory/packer-minecraft-npc
 make publish-docker
