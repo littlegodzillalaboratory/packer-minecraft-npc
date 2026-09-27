@@ -5,3 +5,15 @@ image:
 author: Little Godzilla Laboratory
 dockerhub:
   username: littlegodzillalaboratory
+generator:
+  component: packer-node
+  inputs:
+    project_id: packer-minecraft-npc
+    project_name: Packer Minecraft NPC
+    project_desc: Packer builder of machine image for running Minecraft NPC
+    author_name: Little Godzilla Laboratory
+    author_email: cliffano@gmail.com
+    author_url: https://github.com/littlegodzillalaboratory
+    github_id: littlegodzillalaboratory
+    github_repo: packer-minecraft-npc
+    github_token_prefix: LITTLEGODZILLALABORATORY
