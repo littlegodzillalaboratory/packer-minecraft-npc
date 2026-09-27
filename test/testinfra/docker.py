@@ -4,7 +4,7 @@ version = json.loads(conf.read())['version']
 
 def test_version_via_default(host):
     cmd = host.run_expect([0], 'docker run littlegodzillalaboratory/minecraft-npc --version')
-    assert cmd.stdout == '0.10.0\n'
+    assert cmd.stdout == '1.0.1\n'
 
 def test_help_via_default(host):
     cmd = host.run_expect([0], 'docker run littlegodzillalaboratory/minecraft-npc --help')
@@ -12,7 +12,7 @@ def test_help_via_default(host):
 
 def test_version_via_latest_tag(host):
     cmd = host.run_expect([0], 'docker run littlegodzillalaboratory/minecraft-npc:latest --version')
-    assert cmd.stdout == '0.10.0\n'
+    assert cmd.stdout == '1.0.1\n'
 
 def test_help_via_latest_tag(host):
     cmd = host.run_expect([0], 'docker run littlegodzillalaboratory/minecraft-npc:latest --help')
@@ -20,7 +20,7 @@ def test_help_via_latest_tag(host):
 
 def test_version_via_version_tag(host):
     cmd = host.run_expect([0], f'docker run littlegodzillalaboratory/minecraft-npc:{version} --version')
-    assert cmd.stdout == '0.10.0\n'
+    assert cmd.stdout == '1.0.1\n'
 
 def test_help_via_version_tag(host):
     cmd = host.run_expect([0], f'docker run littlegodzillalaboratory/minecraft-npc:{version} --help')
