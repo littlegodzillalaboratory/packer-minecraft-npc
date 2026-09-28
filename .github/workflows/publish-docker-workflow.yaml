@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v7
       - uses: ./.github/actions/publish-docker-action
         env:
-          DOCKERHUB_TOKEN: ${{ secrets.STUDIO_DOCKERHUB_TOKEN }}
+          DOCKERHUB_TOKEN: ${{ secrets.LITTLEGODZILLALABORATORY_DOCKERHUB_TOKEN }}

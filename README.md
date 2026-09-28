@@ -78,4 +78,7 @@ docker-compose run \
 <!-- END:DEVELOPERS_GUIDE -->
 
 <!-- BEGIN:BUILD_REPORTS -->
+Build reports:
+
+* [Build report](https://littlegodzillalaboratory.github.io/packer-minecraft-npc/index.html)
 <!-- END:BUILD_REPORTS -->
