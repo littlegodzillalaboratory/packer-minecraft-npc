@@ -6,8 +6,8 @@
 [![Build Status](https://github.com/littlegodzillalaboratory/packer-minecraft-npc/workflows/CI/badge.svg)](https://github.com/littlegodzillalaboratory/packer-minecraft-npc/actions?query=workflow%3ACI)
 [![Code Scanning Status](https://github.com/littlegodzillalaboratory/packer-minecraft-npc/workflows/CodeQL/badge.svg)](https://github.com/littlegodzillalaboratory/packer-minecraft-npc/actions?query=workflow%3ACodeQL)
 [![Security Status](https://snyk.io/test/github/littlegodzillalaboratory/packer-minecraft-npc/badge.svg)](https://snyk.io/test/github/littlegodzillalaboratory/packer-minecraft-npc)
-[![Published Version](https://img.shields.io/docker/v/littlegodzillalaboratory/packer-minecraft-npc.svg)](https://hub.docker.com/r/littlegodzillalaboratory/packer-minecraft-npc/)
-[![Docker Pulls Count](https://img.shields.io/docker/pulls/littlegodzillalaboratory/packer-minecraft-npc.svg)](https://hub.docker.com/r/littlegodzillalaboratory/packer-minecraft-npc/)
+[![Published Version](https://img.shields.io/docker/v/null/null.svg)](https://hub.docker.com/r/null/null/)
+[![Docker Pulls Count](https://img.shields.io/docker/pulls/null/null.svg)](https://hub.docker.com/r/null/null/)
 <!-- END:BADGES -->
 
 # Packer Minecraft NPC

@@ -6,5 +6,5 @@ docker --version
 make clean deps lint build-docker
 cat logs/packer-build-docker.log
 echo "${DOCKERHUB_TOKEN}" | docker login --username littlegodzillalaboratory --password-stdin
-docker inspect littlegodzillalaboratory/packer-minecraft-npc
+docker inspect littlegodzillalaboratory/minecraft-npc
 make publish-docker
