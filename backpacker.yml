@@ -17,3 +17,5 @@ generator:
     github_id: littlegodzillalaboratory
     github_repo: packer-minecraft-npc
     github_token_prefix: LITTLEGODZILLALABORATORY
+    image_name: minecraft-npc
+    dockerhub_username: littlegodzillalaboratory
